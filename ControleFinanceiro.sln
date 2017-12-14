@@ -1,0 +1,211 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{1F35A2FA-E4B0-4375-9CE5-A7A0EB06AA3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{478EC6B4-4F64-4F26-B81E-BBF2DEB6CA89}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{84CA153A-3901-4611-9BB0-C05BE6574057}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{8FE9D55F-165F-46AE-8138-1FA6897D7264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budget.Domain", "Budget.Domain\Budget.Domain.csproj", "{8F5F2029-05AF-4DB3-9234-CF84AF4C0550}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budget.Infrastructure.Data", "Budget.Infrastructure.Data\Budget.Infrastructure.Data.csproj", "{4654AB65-6CC1-4863-B9C9-A3F0BC118EA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budget.Application", "Budget.Application\Budget.Application.csproj", "{92559736-2BCC-4AD9-949D-6BBC2C16D4CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budget.Presentation.MVC", "Budget.Presentation.MVC\Budget.Presentation.MVC.csproj", "{F2EE4766-C22D-4FBD-8C54-3B80BA12A86A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{287F1A4F-FA00-4B25-8F18-B362B7095927}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budget.Application.Test", "Budget.Application.Test\Budget.Application.Test.csproj", "{68B4D68C-0063-4A77-BA98-7138750347BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budget.Domain.Services.Test", "Budget.Services.Test\Budget.Domain.Services.Test.csproj", "{293126CB-4731-43D9-B776-703CE465C987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budget.Domain.Test", "Budget.Domain.Test\Budget.Domain.Test.csproj", "{05AD59AA-44E4-4E4E-B2FA-18EE9FD025DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budget.Web.Test", "Budget.Web.Test\Budget.Web.Test.csproj", "{7801B02C-B004-44C1-ACDC-D3F6C3C6DA13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budget.Domain.Services", "Budget.Services\Budget.Domain.Services.csproj", "{75190395-D368-4AC9-9321-E67AE97C3917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budget.Infrastructure.Test", "Budget.Infrastructure.Test\Budget.Infrastructure.Test.csproj", "{11F76E79-F5E0-48E3-AC18-705CFB4E9EDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budget.Infrastructure.Stubs.Test", "Budjet.Infrastructure.Stub\Budget.Infrastructure.Stubs.Test.csproj", "{2252671E-C979-4AF9-9F64-1C92293854A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budget.Infrastructure.CrossCutting.IoC", "Budget.Infrastructure.CrossCutting.IoC\Budget.Infrastructure.CrossCutting.IoC.csproj", "{EFEFD8EC-A310-4FCF-92CF-EE07EB749457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budget.Infrastructure.Helpers", "Budget.Infrastructure.Helpers\Budget.Infrastructure.Helpers.csproj", "{6D25C75D-C1EC-47D5-8ADB-4FEA8C678195}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DC8A7191-F81A-4D34-A72E-E70C9B3BABEF}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{FAAE0EDF-052B-4C22-A288-DC152B3A2EF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budget.Services.WebAPI", "Budget.Services.WebAPI\Budget.Services.WebAPI.csproj", "{29A08393-C5D9-4791-A40B-5677F17F7A6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - CrossCutting", "4.1 - CrossCutting", "{CE25A9D0-50FA-45B3-9411-5D301FA8E3CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Budget.Infrastructure.CrossCutting.Identity", "Budget.Infrastructure.CrossCutting.Identity\Budget.Infrastructure.CrossCutting.Identity.csproj", "{AD98FA46-45B9-4CB1-91AC-DF7D1315CFF4}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 16
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://andreraica.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Budget.Domain\\Budget.Domain.csproj
+		SccProjectTopLevelParentUniqueName1 = ControleFinanceiro.sln
+		SccProjectName1 = Budget.Domain
+		SccLocalPath1 = Budget.Domain
+		SccProjectUniqueName2 = Budget.Infrastructure.Data\\Budget.Infrastructure.Data.csproj
+		SccProjectTopLevelParentUniqueName2 = ControleFinanceiro.sln
+		SccProjectName2 = Budget.Infrastructure.Data
+		SccLocalPath2 = Budget.Infrastructure.Data
+		SccProjectUniqueName3 = Budget.Application\\Budget.Application.csproj
+		SccProjectTopLevelParentUniqueName3 = ControleFinanceiro.sln
+		SccProjectName3 = Budget.Application
+		SccLocalPath3 = Budget.Application
+		SccProjectUniqueName4 = Budget.Application.Test\\Budget.Application.Test.csproj
+		SccProjectTopLevelParentUniqueName4 = ControleFinanceiro.sln
+		SccProjectName4 = Budget.Application.Test
+		SccLocalPath4 = Budget.Application.Test
+		SccProjectUniqueName5 = Budget.Domain.Test\\Budget.Domain.Test.csproj
+		SccProjectTopLevelParentUniqueName5 = ControleFinanceiro.sln
+		SccProjectName5 = Budget.Domain.Test
+		SccLocalPath5 = Budget.Domain.Test
+		SccProjectUniqueName6 = Budget.Web.Test\\Budget.Web.Test.csproj
+		SccProjectTopLevelParentUniqueName6 = ControleFinanceiro.sln
+		SccProjectName6 = Budget.Web.Test
+		SccLocalPath6 = Budget.Web.Test
+		SccProjectUniqueName7 = Budget.Infrastructure.Test\\Budget.Infrastructure.Test.csproj
+		SccProjectTopLevelParentUniqueName7 = ControleFinanceiro.sln
+		SccProjectName7 = Budget.Infrastructure.Test
+		SccLocalPath7 = Budget.Infrastructure.Test
+		SccProjectUniqueName8 = Budget.Services\\Budget.Domain.Services.csproj
+		SccProjectTopLevelParentUniqueName8 = ControleFinanceiro.sln
+		SccProjectName8 = Budget.Services
+		SccLocalPath8 = Budget.Services
+		SccProjectUniqueName9 = Budget.Services.Test\\Budget.Domain.Services.Test.csproj
+		SccProjectTopLevelParentUniqueName9 = ControleFinanceiro.sln
+		SccProjectName9 = Budget.Services.Test
+		SccLocalPath9 = Budget.Services.Test
+		SccProjectUniqueName10 = Budjet.Infrastructure.Stub\\Budget.Infrastructure.Stubs.Test.csproj
+		SccProjectTopLevelParentUniqueName10 = ControleFinanceiro.sln
+		SccProjectName10 = Budjet.Infrastructure.Stub
+		SccLocalPath10 = Budjet.Infrastructure.Stub
+		SccProjectUniqueName11 = Budget.Infrastructure.Helpers\\Budget.Infrastructure.Helpers.csproj
+		SccProjectTopLevelParentUniqueName11 = ControleFinanceiro.sln
+		SccProjectName11 = Budget.Infrastructure.Helpers
+		SccLocalPath11 = Budget.Infrastructure.Helpers
+		SccProjectUniqueName12 = Budget.Presentation.MVC\\Budget.Presentation.MVC.csproj
+		SccProjectTopLevelParentUniqueName12 = ControleFinanceiro.sln
+		SccProjectName12 = Budget.Presentation.MVC
+		SccLocalPath12 = Budget.Presentation.MVC
+		SccProjectUniqueName13 = Budget.Services.WebAPI\\Budget.Services.WebAPI.csproj
+		SccProjectTopLevelParentUniqueName13 = ControleFinanceiro.sln
+		SccProjectName13 = Budget.Services.WebAPI
+		SccLocalPath13 = Budget.Services.WebAPI
+		SccProjectUniqueName14 = Budget.Infrastructure.CrossCutting.IoC\\Budget.Infrastructure.CrossCutting.IoC.csproj
+		SccProjectTopLevelParentUniqueName14 = ControleFinanceiro.sln
+		SccProjectName14 = Budget.Infrastructure.CrossCutting.IoC
+		SccLocalPath14 = Budget.Infrastructure.CrossCutting.IoC
+		SccProjectUniqueName15 = Budget.Infrastructure.CrossCutting.Identity\\Budget.Infrastructure.CrossCutting.Identity.csproj
+		SccProjectTopLevelParentUniqueName15 = ControleFinanceiro.sln
+		SccProjectName15 = Budget.Infrastructure.CrossCutting.Identity
+		SccLocalPath15 = Budget.Infrastructure.CrossCutting.Identity
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F5F2029-05AF-4DB3-9234-CF84AF4C0550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5F2029-05AF-4DB3-9234-CF84AF4C0550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5F2029-05AF-4DB3-9234-CF84AF4C0550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5F2029-05AF-4DB3-9234-CF84AF4C0550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4654AB65-6CC1-4863-B9C9-A3F0BC118EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4654AB65-6CC1-4863-B9C9-A3F0BC118EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4654AB65-6CC1-4863-B9C9-A3F0BC118EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4654AB65-6CC1-4863-B9C9-A3F0BC118EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92559736-2BCC-4AD9-949D-6BBC2C16D4CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92559736-2BCC-4AD9-949D-6BBC2C16D4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92559736-2BCC-4AD9-949D-6BBC2C16D4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92559736-2BCC-4AD9-949D-6BBC2C16D4CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2EE4766-C22D-4FBD-8C54-3B80BA12A86A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2EE4766-C22D-4FBD-8C54-3B80BA12A86A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2EE4766-C22D-4FBD-8C54-3B80BA12A86A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2EE4766-C22D-4FBD-8C54-3B80BA12A86A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B4D68C-0063-4A77-BA98-7138750347BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B4D68C-0063-4A77-BA98-7138750347BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B4D68C-0063-4A77-BA98-7138750347BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B4D68C-0063-4A77-BA98-7138750347BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293126CB-4731-43D9-B776-703CE465C987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293126CB-4731-43D9-B776-703CE465C987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293126CB-4731-43D9-B776-703CE465C987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293126CB-4731-43D9-B776-703CE465C987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05AD59AA-44E4-4E4E-B2FA-18EE9FD025DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05AD59AA-44E4-4E4E-B2FA-18EE9FD025DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05AD59AA-44E4-4E4E-B2FA-18EE9FD025DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05AD59AA-44E4-4E4E-B2FA-18EE9FD025DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7801B02C-B004-44C1-ACDC-D3F6C3C6DA13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7801B02C-B004-44C1-ACDC-D3F6C3C6DA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7801B02C-B004-44C1-ACDC-D3F6C3C6DA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7801B02C-B004-44C1-ACDC-D3F6C3C6DA13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75190395-D368-4AC9-9321-E67AE97C3917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75190395-D368-4AC9-9321-E67AE97C3917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75190395-D368-4AC9-9321-E67AE97C3917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75190395-D368-4AC9-9321-E67AE97C3917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11F76E79-F5E0-48E3-AC18-705CFB4E9EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11F76E79-F5E0-48E3-AC18-705CFB4E9EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11F76E79-F5E0-48E3-AC18-705CFB4E9EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11F76E79-F5E0-48E3-AC18-705CFB4E9EDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2252671E-C979-4AF9-9F64-1C92293854A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2252671E-C979-4AF9-9F64-1C92293854A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2252671E-C979-4AF9-9F64-1C92293854A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2252671E-C979-4AF9-9F64-1C92293854A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFEFD8EC-A310-4FCF-92CF-EE07EB749457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFEFD8EC-A310-4FCF-92CF-EE07EB749457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFEFD8EC-A310-4FCF-92CF-EE07EB749457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFEFD8EC-A310-4FCF-92CF-EE07EB749457}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D25C75D-C1EC-47D5-8ADB-4FEA8C678195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D25C75D-C1EC-47D5-8ADB-4FEA8C678195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D25C75D-C1EC-47D5-8ADB-4FEA8C678195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D25C75D-C1EC-47D5-8ADB-4FEA8C678195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A08393-C5D9-4791-A40B-5677F17F7A6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A08393-C5D9-4791-A40B-5677F17F7A6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A08393-C5D9-4791-A40B-5677F17F7A6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A08393-C5D9-4791-A40B-5677F17F7A6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD98FA46-45B9-4CB1-91AC-DF7D1315CFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD98FA46-45B9-4CB1-91AC-DF7D1315CFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD98FA46-45B9-4CB1-91AC-DF7D1315CFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD98FA46-45B9-4CB1-91AC-DF7D1315CFF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F5F2029-05AF-4DB3-9234-CF84AF4C0550} = {84CA153A-3901-4611-9BB0-C05BE6574057}
+		{4654AB65-6CC1-4863-B9C9-A3F0BC118EA3} = {8FE9D55F-165F-46AE-8138-1FA6897D7264}
+		{92559736-2BCC-4AD9-949D-6BBC2C16D4CC} = {478EC6B4-4F64-4F26-B81E-BBF2DEB6CA89}
+		{F2EE4766-C22D-4FBD-8C54-3B80BA12A86A} = {1F35A2FA-E4B0-4375-9CE5-A7A0EB06AA3E}
+		{68B4D68C-0063-4A77-BA98-7138750347BC} = {287F1A4F-FA00-4B25-8F18-B362B7095927}
+		{293126CB-4731-43D9-B776-703CE465C987} = {287F1A4F-FA00-4B25-8F18-B362B7095927}
+		{05AD59AA-44E4-4E4E-B2FA-18EE9FD025DF} = {287F1A4F-FA00-4B25-8F18-B362B7095927}
+		{7801B02C-B004-44C1-ACDC-D3F6C3C6DA13} = {287F1A4F-FA00-4B25-8F18-B362B7095927}
+		{75190395-D368-4AC9-9321-E67AE97C3917} = {84CA153A-3901-4611-9BB0-C05BE6574057}
+		{11F76E79-F5E0-48E3-AC18-705CFB4E9EDA} = {287F1A4F-FA00-4B25-8F18-B362B7095927}
+		{2252671E-C979-4AF9-9F64-1C92293854A1} = {287F1A4F-FA00-4B25-8F18-B362B7095927}
+		{EFEFD8EC-A310-4FCF-92CF-EE07EB749457} = {CE25A9D0-50FA-45B3-9411-5D301FA8E3CC}
+		{6D25C75D-C1EC-47D5-8ADB-4FEA8C678195} = {8FE9D55F-165F-46AE-8138-1FA6897D7264}
+		{29A08393-C5D9-4791-A40B-5677F17F7A6A} = {FAAE0EDF-052B-4C22-A288-DC152B3A2EF4}
+		{CE25A9D0-50FA-45B3-9411-5D301FA8E3CC} = {8FE9D55F-165F-46AE-8138-1FA6897D7264}
+		{AD98FA46-45B9-4CB1-91AC-DF7D1315CFF4} = {CE25A9D0-50FA-45B3-9411-5D301FA8E3CC}
+	EndGlobalSection
+EndGlobal

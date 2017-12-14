@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Angular";
+}
+
+<script src="/Scripts/angular.min.js"></script>
+<script src="/StaticAngular/Script/AppBudget.js"></script>
+<script src="/StaticAngular/Script/Orcamento.Controller.js"></script>
+<script src="/StaticAngular/Script/Orcamento.Services.js"></script>
+<script src="/StaticAngular/Script/Orcamento.Directives.js"></script>
+
+<h2>Orçamento</h2>
+
+<!--<div ng-app="budgetApp">-->
+<div ng-app="budgetApp" ng-controller="OrcamentoController">
+
+    <form id="formPrincipal">
+
+        <style>
+            .erro {
+                border-color: red;
+            }
+        </style>
+
+        @*Orçamento Grid ------------------------------------------------*@
+        <ng-include src="'/StaticAngular/View/Orcamento/OrcamentoGrid.htm'" />
+
+        @*Modal Valor ---------------------------------------------------*@
+        <!--<ng-include src="'/StaticAngular/View/Orcamento/ModalValor.htm'" />-->
+        @*Modal SubValor ------------------------------------------------*@
+        <!--<ng-include src="'/StaticAngular/View/Orcamento/ModalSubValor.htm'" />-->
+
+    </form>
+
+</div>

@@ -1,0 +1,59 @@
+﻿<!--Valor Grid  ----------------------------------------------------->
+<table data-toggle="table" data-cache="false" data-height="299" class="table table-hover">
+    <thead>
+        <tr>
+            <th style="">
+                <div class="th-inner">ID</div>
+            </th>
+            <th style="">
+                <div class="th-inner">Descrição</div>
+            </th>
+            <th style=""></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr data-index="0" ng-repeat="valor in valores">
+            <td style="">
+                {{valor.ID}}
+            </td>
+            <td style="">
+                {{valor.Vencimento}}
+            </td>
+            <td style="">
+                <span class="glyphicon glyphicon-th-list" title="Sub-Valor" ng-click="OpenModalSubValor(valor.ID)"></span>
+                <span class="glyphicon glyphicon-pencil" title="Editar" ng-click="EditarValor(valor.ID)"></span>
+                <span class="glyphicon glyphicon-remove-sign" title="Excluir" ng-click="ExcluirValor(valor.ID)"></span>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3">
+
+                <div ng-form="formValor">
+
+                    <div id="dvIncluirValor" style="display: none;">
+
+                        <div class="form-inline">
+                            <div class="form-group">
+                                <label for="inputVencimentoValor">Vencimento</label>
+                                <input type="text" class="form-control" id="inputVencimentoValor" ng-model="Valor" placeholder="Vencimento" ng-blur required>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button type="button" class="btn btn-default" aria-label="Right Align" ng-click="IncluirValor(orcamentoId)" id="btnSaveValor" ng-disabled="formValor.$invalid && formValorVisible">
+                        <span class=" glyphicon glyphicon-plus-sign" aria-hidden="true" id="iconSaveValor">
+                        </span>
+                    </button>
+
+                    <button type="button" class="btn btn-default" aria-label="Right Align" ng-click="SalvarEdicaoValor()" id="btnEditValor" style="display: none;">
+                        <span class="glyphicon glyphicon-floppy-open" aria-hidden="true" id="iconEditValor">
+                        </span>
+                    </button>
+
+                </div>
+
+            </td>
+        </tr>
+    </tbody>
+</table>

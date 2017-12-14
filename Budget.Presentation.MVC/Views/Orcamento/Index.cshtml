@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Budget.Presentation.MVC.ViewModels.OrcamentoViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TipoPessoa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TipoOrcamento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TipoPagamento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Fixa)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TaxaPorcentagem)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Descricao)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TipoPessoa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TipoOrcamento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TipoPagamento)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Fixa)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TaxaPorcentagem)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id }) |
+            @Html.ActionLink("Valores", "ItemValor", new { id = item.Id })
+        </td>
+    </tr>
+}
+
+</table>
