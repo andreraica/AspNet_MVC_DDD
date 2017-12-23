@@ -1,13 +1,22 @@
-# AspNet_MVC_DDD
-Programa Simples em MVC, WebAPI, AngularJS para Controle Financeiro
+# Projeto AspNet_MVC_DDD
+Programa simples criado por mim para Controle Financeiro
 
 # Tecnologias
 
-DDD / TDD
+Aplicação de conceitos SOLID
+
+DDD
+TDD - Mocks e Stubs
 
 MVC
 AngularJS
 WebAPI
 
+AutoMapper
+
 Entity Framework - CodeFirst / Migrations
 Dapper
+
+# Incializando
+
+...
