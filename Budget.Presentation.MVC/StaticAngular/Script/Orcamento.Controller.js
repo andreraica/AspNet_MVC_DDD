@@ -4,7 +4,7 @@ angular.module('budgetApp').controller('OrcamentoController', function ($scope, 
     $scope.AuthToken = function () {
 
         var uriBaseAuth = 'http://localhost:63867';
-        var userName = 'andreraica@gmail.com';
+        var userName = 'teste@teste.com';
         var password = '123456';
         var clientId = 'client';
         var secret = "secret";

@@ -60,7 +60,7 @@ namespace Budget.Web.Test.ControllersAPI.Authentication
                 var form = new Dictionary<string, string>  
                {  
                    {"grant_type", "password"},  
-                   {"username", "andreraica@gmail.com"},  
+                   {"username", "teste@teste.com"},  
                    {"password", "123456"},  
                };
 
