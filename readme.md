@@ -16,6 +16,7 @@ Simple AngularJS interface using WebAPI, MVC and Identity to financial control
 2) Set the project [0-Presentation/Budget.Presentation.MVC] as StartUp Project
 
 **Database - Executing Entity Framework CodeFirst**
+
 3) Open Package Manager Console on Visual Studio
 4) Select default project [4-Infrastructure\Budget.Infrastructure.Data]
 5) Execute the command:
@@ -29,6 +30,7 @@ update-database -verbose -StartUpProjectName Budget.Services.WebAPI
 ````
 
 **Running**
+
 8) Press play button (This action should restore the Nuget Packages)
 
 
